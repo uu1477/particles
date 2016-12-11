@@ -56,7 +56,8 @@ ParticleSystem::ParticleSystem(uint numParticles, uint3 gridSize, bool bUseOpenG
     m_params.numBodies = m_numParticles;
 
     m_params.particleRadius = 1.0f / 64.0f;
-    m_params.colliderPos = make_float3(-1.2f, -0.8f, 0.8f);
+//    m_params.colliderPos = make_float3(-1.2f, -0.8f, 0.8f);
+    m_params.colliderPos = make_float3(-1.0f, -1.0f, -1.0f);
     m_params.colliderRadius = 0.2f;
 
     m_params.worldOrigin = make_float3(-1.0f, -1.0f, -1.0f);
